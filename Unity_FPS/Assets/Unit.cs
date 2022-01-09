@@ -15,9 +15,9 @@ public abstract class Unit : MonoBehaviour
         }
         set
         {
-            if (hp - value <= 0)
+            if (value <= 0)
                 Dead();
-            else if (value < 0)
+            else if (value < hp)
                 Hit();
         }
     }
