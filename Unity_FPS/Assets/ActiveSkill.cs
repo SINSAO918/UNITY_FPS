@@ -21,6 +21,6 @@ public abstract class ActiveSkill : Skill
 
     protected void CoolDown()
     {
-        skillCoolTime -= Time.deltaTime;
+        skillCoolTimeIndex -= Time.deltaTime;
     }
 }
