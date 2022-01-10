@@ -13,6 +13,7 @@ public class CameraController : MonoBehaviour
     public enum CameraMode { FPS, TPS}
     public CameraMode cameraMode;
 
+
     public float currentRotateX { get; private set; }
     public float currentRotateY { get; private set; }
 
